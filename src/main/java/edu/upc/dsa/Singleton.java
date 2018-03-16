@@ -15,8 +15,10 @@ public class Singleton {
         return instance;
     }
 
-    List<Track> tracks;
-    public Track getTrack(){
+    private List<Track> tracks;
+    public List<Track> getTrack(){
         return tracks;
     }
+
+    
 }
