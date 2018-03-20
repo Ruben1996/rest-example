@@ -1,5 +1,5 @@
 package edu.upc.dsa;
-import java.util.List;
+import java.util.*;
 
 public class Singleton {
 
@@ -15,10 +15,11 @@ public class Singleton {
         return instance;
     }
 
-    private List<Track> tracks;
+    public List<Track> tracks = new ArrayList<Track>();
+
     public List<Track> getTrack(){
         return tracks;
     }
 
-    
+
 }
